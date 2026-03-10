@@ -1,6 +1,6 @@
 [build]
-  command = "npm install && npm run build"
+  command = "npm ci && ./node_modules/.bin/vite build"
   publish = "dist"
 
 [build.environment]
-  NODE_VERSION = "18"
+  NODE_VERSION = "20"
